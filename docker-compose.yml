@@ -15,6 +15,7 @@ services: # ahora se indican los servicios por el orden en que se quiere que se 
     ports:
       - "28017:28017" # mapeo el Puerto del contenedor (derecha) con el puerto  del host del servicio
       - "27017:27017"
+      - "27016:27017"
     volumes:
       - "db-data:/data/db" # para guardar en local los cambios en el contenedor
   order:
@@ -27,8 +28,8 @@ services: # ahora se indican los servicios por el orden en que se quiere que se 
         limits:
           cpus: "0.3"
           memory: 500M
-      restart_policy:
-        condition: on-failure
+      # restart_policy:
+      #   condition: on-failure
     ports:
       - "8080:8080"
   web:
