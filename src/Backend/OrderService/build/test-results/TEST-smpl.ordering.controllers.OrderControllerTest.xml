@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="smpl.ordering.controllers.OrderControllerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-10-25T11:57:42" hostname="DESKTOP-CA9E92M" time="0.006">
+  <properties/>
+  <testcase name="testGetQuotesByDealerName" classname="smpl.ordering.controllers.OrderControllerTest" time="0.003"/>
+  <testcase name="testCreateOrder" classname="smpl.ordering.controllers.OrderControllerTest" time="0.001"/>
+  <testcase name="testAddEvent" classname="smpl.ordering.controllers.OrderControllerTest" time="0.0"/>
+  <testcase name="testGetOrderById" classname="smpl.ordering.controllers.OrderControllerTest" time="0.001"/>
+  <testcase name="testUpdate" classname="smpl.ordering.controllers.OrderControllerTest" time="0.001"/>
+  <system-out><![CDATA[13:57:42.192 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+13:57:42.195 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+13:57:42.196 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+13:57:42.197 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+13:57:42.197 [Test worker] DEBUG o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'mongoTemplate'
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
