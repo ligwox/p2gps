@@ -36,6 +36,10 @@ jobs:
            name: Clients 
            path: src/Clients/build/libs 
            
+      - name: build del Back 
+        working-directory: src/Backend/OrderService 
+        run: ./gradlew build test
+           
       - name: dockerizar el front y el backend 
         run: |  
             cp src/Clients/build/libs/*.war deploy/docker/Clients/drop #copiar el resultado del build para la nueva imagen 
